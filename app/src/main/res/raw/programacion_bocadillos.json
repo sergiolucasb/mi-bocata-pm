@@ -1,0 +1,170 @@
+[
+  {
+    "fecha": "18-11-2024",
+    "bocadillo": "bocata de atún",
+    "ingredientes": "Pan, aceite, tomate, atún",
+    "alergenos": "gluten, pescados",
+    "frio": true
+  },
+  {
+    "fecha": "18-11-2024",
+    "bocadillo": "caprese caliente",
+    "ingredientes": "mozarella, tomate, albahaca",
+    "alergenos": "gluten, lácteos",
+    "frio": false
+  },
+  {
+    "fecha": "19-11-2024",
+    "bocadillo": "bocadillo vegano",
+    "ingredientes": "lechuga, esparragos, col, espinacas",
+    "alergenos": "gluten",
+    "frio": true
+  },
+  {
+    "fecha": "19-11-2024",
+    "bocadillo": "bocata de ternera ",
+    "ingredientes": "pan, ternera, tomate, queso",
+    "alergenos": "gluten, lácteos",
+    "frio": false
+  },
+  {
+    "fecha": "20-11-2024",
+    "bocadillo": "bocadillo frescor",
+    "ingredientes": "queso fresco, jamón, aceite, pan",
+    "alergenos": "gluten, lácteos, sulfitos",
+    "frio": true
+  },
+  {
+    "fecha": "20-11-2024",
+    "bocadillo": "bocata caliente ",
+    "ingredientes": "pechuga de pollo, ketchup, queso, pan",
+    "alergenos": "gluten, lácteos, altramuces",
+    "frio": false
+  },
+  {
+    "fecha": "21-11-2024",
+    "bocadillo": "bocadillo salchicha",
+    "ingredientes": "salchicha, pan, sal, aceite, mayonesa",
+    "alergenos": "gluten, sulfitos",
+    "frio": true
+  },
+  {
+    "fecha": "21-11-2024",
+    "bocadillo": "bocata jamón",
+    "ingredientes": "jamón, queso, aceite, pan, sal",
+    "alergenos": "gluten, lácteos, sulfitos",
+    "frio": false
+  },
+  {
+    "fecha": "22-11-2024",
+    "bocadillo": "bocadillo ensaladilla",
+    "ingredientes": "ensaladilla, pan",
+    "alergenos": "huevos, gluten, lácteos",
+    "frio": true
+  },
+  {
+    "fecha": "22-11-2024",
+    "bocadillo": "bocata bacon",
+    "ingredientes": "pan, bacon, huevos",
+    "alergenos": "huevo, gluten",
+    "frio": false
+  },
+  {
+    "fecha": "23-11-2024",
+    "bocadillo": "bocadillo chorizo",
+    "ingredientes": "chorizo, aceite, pan, sal, queso",
+    "alergenos": "gluten, lácteos",
+    "frio": true
+  },
+  {
+    "fecha": "23-11-2024",
+    "bocadillo": "panpizza",
+    "ingredientes": "tomate, pan, jamón york, queso",
+    "alergenos": "gluten, huevo, lácteos",
+    "frio": false
+  },
+  {
+    "fecha": "24-11-2024",
+    "bocadillo": "bocata de atún",
+    "ingredientes": "Pan, aceite, tomate, atún",
+    "alergenos": "gluten, pescados",
+    "frio": true
+  },
+  {
+    "fecha": "24-11-2024",
+    "bocadillo": "caprese caliente",
+    "ingredientes": "mozarella, tomate, albahaca",
+    "alergenos": "gluten, lácteos",
+    "frio": false
+  },
+  {
+    "fecha": "25-11-2024",
+    "bocadillo": "bocadillo vegano",
+    "ingredientes": "lechuga, esparragos, col, espinacas",
+    "alergenos": "gluten",
+    "frio": true
+  },
+  {
+    "fecha": "25-11-2024",
+    "bocadillo": "bocata de ternera ",
+    "ingredientes": "pan, ternera, tomate, queso",
+    "alergenos": "gluten, lácteos",
+    "frio": false
+  },
+  {
+    "fecha": "26-11-2024",
+    "bocadillo": "bocadillo frescor",
+    "ingredientes": "queso fresco, jamón, aceite, pan",
+    "alergenos": "gluten, lácteos, sulfitos",
+    "frio": true
+  },
+  {
+    "fecha": "26-11-2024",
+    "bocadillo": "bocata caliente ",
+    "ingredientes": "pechuga de pollo, ketchup, queso, pan",
+    "alergenos": "gluten, lácteos, altramuces",
+    "frio": false
+  },
+  {
+    "fecha": "27-11-2024",
+    "bocadillo": "bocadillo salchicha",
+    "ingredientes": "salchicha, pan, sal, aceite, mayonesa",
+    "alergenos": "gluten, sulfitos",
+    "frio": false
+  },
+  {
+    "fecha": "27-11-2024",
+    "bocadillo": "bocata jamón",
+    "ingredientes": "jamón, queso, aceite, pan, sal",
+    "alergenos": "gluten, lácteos, sulfitos",
+    "frio": true
+  },
+  {
+    "fecha": "28-11-2024",
+    "bocadillo": "bocadillo ensaladilla",
+    "ingredientes": "ensaladilla, pan",
+    "alergenos": "huevos, gluten, lácteos",
+    "frio": true
+  },
+  {
+    "fecha": "28-11-2024",
+    "bocadillo": "bocata bacon",
+    "ingredientes": "pan, bacon, huevos",
+    "alergenos": "huevo, gluten",
+    "frio": false
+  },
+  {
+    "fecha": "29-11-2024",
+    "bocadillo": "bocadillo chorizo",
+    "ingredientes": "chorizo, aceite, pan, sal, queso",
+    "alergenos": "gluten, lácteos",
+    "frio": true
+  },
+  {
+    "fecha": "29-11-2024",
+    "bocadillo": "panpizza",
+    "ingredientes": "tomate, pan, jamón york, queso",
+    "alergenos": "gluten, huevo, lácteos",
+    "frio": false
+  }
+]

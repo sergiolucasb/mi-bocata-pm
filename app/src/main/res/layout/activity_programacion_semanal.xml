@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pared_blanca"
+    tools:context=".ProgramacionSemanal">
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/btn_menu_principal"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38"
+        app:srcCompat="@drawable/logomibocata" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/irishgroverregular"
+        android:text="Para mañana"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="163dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#37C94D"
+        app:layout_constraintBottom_toTopOf="@+id/view14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="163dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#F18060"
+        app:layout_constraintBottom_toTopOf="@+id/view14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.707" />
+
+    <TextView
+        android:id="@+id/nombre_frio"
+        android:layout_width="143dp"
+        android:layout_height="68dp"
+        android:text="bocadillo salchichón"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view12"
+        app:layout_constraintEnd_toEndOf="@+id/view12"
+        app:layout_constraintStart_toStartOf="@+id/view12"
+        app:layout_constraintTop_toTopOf="@+id/view12" />
+
+    <TextView
+        android:id="@+id/nombre_caliente"
+        android:layout_width="137dp"
+        android:layout_height="69dp"
+        android:text="bocadillo jamón"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view13"
+        app:layout_constraintEnd_toEndOf="@+id/view13"
+        app:layout_constraintStart_toStartOf="@+id/view13"
+        app:layout_constraintTop_toTopOf="@+id/view13" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="0dp"
+        android:layout_height="430dp"
+        android:background="#fff"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="Esta semana:"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view14"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="370dp"
+        android:layout_height="1dp"
+        android:background="#000"
+        app:layout_constraintBottom_toTopOf="@+id/view15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view14"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/btn_historial"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view15"
+        app:srcCompat="@drawable/icono_contable" />
+
+    <ImageView
+        android:id="@+id/btn_perfil"
+
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icono_perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view15"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <ImageView
+        android:id="@+id/btn_calendario"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/icono_calendario"
+        app:layout_constraintBottom_toBottomOf="@+id/view14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view15" />
+
+    <GridView
+        android:id="@+id/gridViewBocadillos"
+        android:layout_width="369dp"
+        android:layout_height="258dp"
+        android:numColumns="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

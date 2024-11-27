@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_pared_blanca">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#fff"
+        android:drawableBottom="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@drawable/logomibocata" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONA TU BOCADILLO:"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <View
+        android:id="@+id/bocadillo_frio"
+        android:layout_width="380dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.9"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#37C94D"
+        app:layout_constraintBottom_toTopOf="@+id/bocadillo_caliente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/bocadillo_caliente"
+        android:layout_width="380dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="256dp"
+        android:alpha="0.9"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#F18060"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bocadillo_caliente"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/nombre_frio"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/irishgroverregular"
+        android:text="BOCADILLO FRÍO"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bocadillo_frio"
+        app:layout_constraintEnd_toEndOf="@+id/bocadillo_frio"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="@+id/bocadillo_frio"
+        app:layout_constraintTop_toTopOf="@+id/bocadillo_frio"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/ingredientes_frio"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:text="bocadillo de atún"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bocadillo_frio"
+        app:layout_constraintEnd_toEndOf="@+id/bocadillo_frio"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="@+id/bocadillo_frio"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_frio"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <TextView
+        android:id="@+id/nombre_caliente"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/irishgroverregular"
+        android:text="BOCADILLO CALIENTE"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bocadillo_caliente"
+        app:layout_constraintEnd_toEndOf="@+id/bocadillo_caliente"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="@+id/bocadillo_caliente"
+        app:layout_constraintTop_toTopOf="@+id/bocadillo_caliente"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/ingredientes_caliente"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:text="bocadillo de salchicha"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bocadillo_caliente"
+        app:layout_constraintEnd_toEndOf="@+id/bocadillo_caliente"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/bocadillo_caliente"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_caliente"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <ImageView
+        android:id="@+id/btn_historial"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view5"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/icono_contable" />
+
+    <ImageView
+        android:id="@+id/btn_perfil"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view5"
+        app:srcCompat="@drawable/icono_perfil" />
+
+    <ImageView
+        android:id="@+id/btn_calendario"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view5"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/icono_calendario" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
